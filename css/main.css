@@ -13,14 +13,14 @@ html, body {
     margin: 0 auto;
     z-index: -1;
     position: absolute;
-    top: 60%;
+    top: 45%;
     left: 10%;
     transform: translate(0, -50%);
 }
 
 .content h1 {
     font-family: Poppins;
-    font-size: 2.5em;
+    font-size: 2.6em;
     color: #101010;
     font-weight: 700;
     text-transform: uppercase;
@@ -31,8 +31,9 @@ html, body {
     margin-top: 0;
     text-align: left;
     color: #101010;
-    font-weight: 400;
+    font-weight: 2em;
 }
+
 
 .overlay-2 {
     z-index: 0;
@@ -130,4 +131,9 @@ button {
 
 .myBtn:hover:before {
     top: 0;
+}
+
+#profile{
+    width: 50%;
+    border-radius: 5.5px;
 }
