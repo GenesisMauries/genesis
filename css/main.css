@@ -7,13 +7,12 @@ html, body {
     font-family: Poppins;
 }
 
-
 .content {
     width: 60%;
     margin: 0 auto;
     z-index: -1;
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 10%;
     transform: translate(0, -50%);
 }
@@ -78,9 +77,8 @@ html, body {
 .screen {
     color: #323232;
     font-family: Poppins;
-
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
