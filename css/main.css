@@ -32,8 +32,6 @@ html, body {
     color: #101010;
     font-weight: 2em;
 }
-
-
 .overlay-2 {
     z-index: 0;
     position: absolute;
@@ -46,7 +44,7 @@ html, body {
     z-index: 1;
      position: absolute;
      width: 100%;
-     height: 100vh;
+     height: 100%;
      background: #101010;
     /* animation: grain 1s steps(10) infinite;
     background-image: url(grains.png);
@@ -78,7 +76,7 @@ html, body {
     color: #323232;
     font-family: Poppins;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -106,13 +104,13 @@ button {
     overflow: hidden;
     background: none;
     z-index: 1;
-    cursor: crosshair;
+    cursor: pointer;
     transition: 0.8s ease-out;
 }
 
 .myBtn:hover {
     color: #101010;
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .myBtn:before {
@@ -135,3 +133,19 @@ button {
     width: 50%;
     border-radius: 5.5px;
 }
+
+#projects h2{
+    font-family: Poppins;
+    font-size: 2.6em;
+    color: #101010;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#projects  {
+    font-family: Poppins;
+    margin-top: 90%;
+    
+}
+
