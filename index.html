@@ -10,41 +10,51 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous"> -->
 
     <title>GénesisMauries</title>
 </head>
 
 <body>
-    <section>
-        <div class="overlay">
-            <p class="screen">Developer</p>
-            <div class="intro">
-                <button class="myBtn" onclick="fadeOut()">Conóceme</button>
-            </div>
+    <!-- Animacion -->
+    <header class="overlay">
+        <p class="screen">Developer</p>
+        <div class="intro">
+            <button class="myBtn" onclick="fadeOut()">Conóceme</button>
         </div>
-        <div class="overlay-2"></div>
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#projects">Proyectos</a>
-            <a class="navbar-brand" href="#skills">Habilidades</a>
-            <a class="navbar-brand" href="#contact">Contacto</a>
-        </nav>
-        <div class="content">
-            <h1>Génesis Mauries</h1>
-            <img id="profile" class="col-6" src="img/gencielo.jpeg" alt="Foto de perfil">
-            <p class="data">Developer ávida de conocimientos y fanática de la lectura. Amo explorar y leer código ajeno
-                para incrementar mis habilidades en programación.
-                Trabajo de especializarme en técnicas y herramientas de programación orientadas a satisfacer
-                requerimientos del mercado.</p>
-        </div>
+    </header>
+    <!-- Div de transicion -->
+    <div class="overlay-2"></div>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <ul class="nav-ul ml-auto">
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="content ">
+        <!-- Yo -->
+        <div class="row col-12">
+            <div class="col-12 offset-md-1 col-md-6">
+                <h1 class="mt-md-5">Génesis Mauries</h1>
+                <p>Developer ávida de conocimientos y fanática de la lectura. Amo explorar y leer código ajeno
+                    para incrementar mis habilidades en programación.
+                    Trabajo de especializarme en técnicas y herramientas de programación orientadas a satisfacer
+                    requerimientos del mercado.</p>
+            </div>
+            <img id="profile" src="img/gencielo.jpeg" alt="Foto de perfil" class="col-12 col-md-4 ml-3">
+        </div>
         <!-- Proyectos -->
-        <div class="content">
-            <div id="projects">
-                <h2>Proyectos</h2>
+        <div id="projects" class="container mt-5">
+            <h2>Proyectos</h2>
+            <div class="row mt-5 flex-container">
                 <!-- Registro de visitantes -->
-                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card text-white bg-dark mb-3">
                     <div class="card-header">
                         <h5 class="card-title">Registro de visitantes</h5>
                     </div>
@@ -56,7 +66,7 @@
                     </div>
                 </div>
                 <!-- Lux -->
-                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card text-white bg-dark mb-3">
                     <div class="card-header">
                         <h5 class="card-title">Lux</h5>
                     </div>
@@ -68,7 +78,7 @@
                     </div>
                 </div>
                 <!-- Movies -->
-                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card text-white bg-dark mb-3">
                     <div class="card-header">
                         <h5 class="card-title">Movies</h5>
                     </div>
@@ -82,62 +92,60 @@
             </div>
         </div>
         <!-- Habilidades -->
-        <div class="content">
-            <div id="skills">
-                <h2>Habilidades</h2>
-                <span>JavaScript</span>
-               <img src="img/js6.png" alt="JavaScript">
+        <div id="skills" class="container mt-5">
+            <h2>Habilidades</h2>
+            <ul class="skills-container-wrap mt-5">
+                <li class="skills-item"><span> <img src="img/js6.png" alt="JavaScript">JavaScript </span></li>
+                <li class="skills-item"><span> <img src="img/reactjs.png" alt="React"> React</span></li>
+                <li class="skills-item"><span> <img src="img/html5.png" alt="HTML"> HTML5</span></li>
+                <li class="skills-item"><span> <img src="img/css3.png" alt="CSS3"> CSS3</span></li>
+                <li class="skills-item"><span><img src="img/blockchain2.png" alt="Blockchain">Blockchain </span></li>
+                <li class="skills-item"><span> <img src="img/autoaprendizaje (2).png" alt="Autoaprendizaje">Auto
+                        aprendizaje</span></li>
+                <li class="skills-item"><span><img src="img/gestion de tiempo.png" alt="">Gestion de tiempo </span></li>
+                <li class="skills-item"><span> <img src="img/etica.png" alt="">Ética</span></li>
+                <li class="skills-item"><span><img src="img/asertividad.png" alt="Asertividad">Asertividad </span></li>
+                <li class="skills-item"><span> <img src="img/resilencia.png" alt="Resilencia">Resilencia</span></li>
 
-               <span>React</span>
-               <img src="img/reactjs.png" alt="React">
+            </ul>
 
-               <span>HTML5</span>
-               <img src="img/html5.png" alt="HTML">
 
-               <span>CSS3</span>
-               <img src="img/css3.png" alt="CSS3">
-
-               <span>Blockchain</span>
-               <img src="img/blockchain2.png" alt="Blockchain">
-
-               <span>Autoaprendizaje</span>
-               <img src="img/autoaprendizaje (2).png" alt="Autoaprendizaje">
-               
-               <span>Gestion de tiempo</span>
-               <img src="img/gestion de tiempo.png" alt="">
-
-               <span>Ética</span>
-               <img src="img/etica.png" alt="">
-
-               <span>Asertividad</span>
-               <img src="img/asertividad.png" alt="Asertividad">
-
-               <span>Resilencia</span>
-               <img src="img/resilencia.png" alt="Resilencia">
-            </div>
         </div>
-
         <!-- Contacto -->
-        <div class="content">
-            <div id ="contact">
-                <h2>Contacto</h2>
 
-                <span>genesismauries@gmail.com</span>
-               <img src="img/gmail.png"  alt="Resilencia">
-
-               <span>/GenesisMauries</span> 
-               <img src="img/github.png" href="https://github.com/GenesisMauries" alt="Resilencia">
-
-               <span>/genesismauries/</span> 
-               <img src="img/linkedin.png" href="https://www.linkedin.com/in/genesismauries/" alt="Resilencia">
-
-               
+        <div id="contact" class="container mt-5">
+            <h2>Contacto</h2>
+            <div class="row">
+                <ul class="contact-list skills-container-wrap">
+                    <li><a href="mailto:genesismauries@gmail.com"><span>Correo <img src="img/gmail.png" alt="LinkCorreo"></span>
+                        </a></li>
+                    <li><a href="https://github.com/GenesisMauries"><span>GitHub <img src="img/github.png" alt="LinkGithub"></span>
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/in/genesismauries/"> <span>Linkedin <img src="img/linkedin.png"
+                                    alt="Linkedin"></span>
+                        </a></li>
+                </ul>
             </div>
         </div>
 
-    </section>
 
-  
+
+
+    </div><!--  Aqui cierra el div content -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
