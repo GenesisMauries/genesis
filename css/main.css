@@ -123,6 +123,7 @@ li a:hover{
     width: 60%;
     height: 60%;
 }
+
 @media (max-width: 768px){
     .nav-bar-desktop{
         display: none;
@@ -280,7 +281,6 @@ li a:hover{
 #contact .contact-list {
 list-style-type: none;
 padding: 0;
-
 }
 #contact .contact-list li a{
     color: #333;
