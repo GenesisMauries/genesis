@@ -17,17 +17,20 @@ Estas son algunas ventajas de poseer un portafolio web:
 Navegando en internet encontre la inspiracion para ejecutar un portafolio que me represente.
 [Github Universe](https://githubuniverse.com/) me impresiono con la magica combinacion de colores en un fondo negro y quise representarme como una gama diversa y amigable de colores.
 
-- El color blanco es el más puro de todos, así es que representa a la pureza. Es el color más protector de todos, aporta paz, la puereza y confort, alivia la sensación de desespero y de shock emocional, ayuda a limpiar y aclarar las emociones, los pensamientos y el espíritu.
+- El color blanco es el más puro de todos, así es que representa a la pureza. Es el color más protector de todos, aporta paz y confort, alivia la sensación de desespero y de shock emocional, ayuda a limpiar y aclarar las emociones, los pensamientos y el espíritu.
 - Aproveche que el color negro se asocia con el infinito, la fuerza pasiva femenina y misteriosa. 
 - En la gama de rosa y morado vi reflejada inocencia, amor, entrega, generosidad, magia, espiritualidad, creatividad, dignididad y realeza.
 
 ## Sketch
-Realice un unico sketch pues busco que la informacion sea clara y concisa.
+Realice un único sketch pues busco que la informacion sea clara y concisa.
+
+[Celular]()
+[PC]()
 
 
 ## Tecnologías
 
-Para el desarrollo de este proyecto utilice:
+Para el desarrollo de este proyecto utilicé:
 
 - HTML5
 - CSS3
