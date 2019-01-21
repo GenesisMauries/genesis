@@ -319,6 +319,10 @@ padding: 0;
     /* left: 10%; */
     transform: translate(0, -100%);
 }
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
 
 
 
